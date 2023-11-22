@@ -1,0 +1,77 @@
+Game Rules 
+
+  
+
+ Equipment: 
+
+number of easy query: 16 
+
+number of medium query: 15 
+
+number of hard query: 15 
+
+number of word query: 390 including 85 trap cards 
+
+and 1 friend 
+
+ 
+
+Aim of the game: 
+
+Perform 3 SQL queries of easy, medium and hard levels faster than your opponent. 
+
+The SQL cards all have the query written on them, and you have to recreate it using the Black cards. 
+
+For more information about queries  check our website. 
+
+  
+
+Preparation: 
+
+The player who hasn't recently used a SQL query starts and/or the youngest player. 
+
+Each player draws 1 card from the easy pile, 1 card from the medium pile and 1 card from the hard pile. 
+
+Each player draws 8 cards from the black pile and is obliged to have exactly 8 cards at all times. If not, you have to pick the number of the missing cards 
+
+ 
+
+Game sequence: 
+
+In turn, each player places a card from the purple pile on the table. 
+
+the cards: 
+
+Green:  Easy SQL quest cards 
+
+Blue: Medium SQL query cards 
+
+Purple: Difficult SQL query cards 
+
+Black: Basic cards for creating SQL queries 
+
+Trap cards:  
+
+-Syntax error" card: you have to start from the beginning 
+
+- Query Satellite" card: Spies on an opponent's DATABASE (can be combined with SQL Injection to steal a card by spying). 
+
+- SQL Injection Card: Steals a card at random from an opponent (can be combined with a Query Satellite to choose the card). 
+
+Bonus cards: 
+
+- Master SQL Card: Replaces a card with any SQL word of your choice. The SQL word must be explained and justified before use. 
+
+- SQL Reset" card: Exchanges all the cards in your current hand with new cards. Draw the same number of cards as you exchanged. 
+
+- SQL Challenge" card: If your opponent has solved more cards than you (e.g. if you're at the easy end and he's at the medium end), add a card of lower difficulty than the one he's solved. 
+
+- SQL Shield card: Activate a shield that protects against enemy attacks for 2 turns. During this period, the negative effects of opposing cards have no effect on you. 
+
+ 
+
+ End of game: 
+
+The first player to resolve 3 SQL query cards wins the game. 
+
+ 

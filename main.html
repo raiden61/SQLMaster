@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Challenge: Master SQL</title>
+</head>
+
+
+<body>
+    <div class="logo">
+        <div class="titre">Code Challenge: Master SQL
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <a href="#" class="regle"> Game Rules</a>
+    </nav>
+    <div class="espace"></div>
+
+    <nav class="navbar">
+        <a href="#" class="easyRequest"> Easy request</a>
+    </nav>
+    <div class="espace"></div>
+
+    <nav class="navbar">
+        <a href="#" class="averageRequest"> Medium request</a>
+    </nav>
+    <div class="espace"></div>
+
+    <nav class="navbar">
+        <a href="#" class="hardRequest"> Hard request</a>
+    </nav>
+
+    <div class="divRegle">
+        <div class="divReglePopup">
+            <h1 class="titreinPopup">Game Rules</h1><br>
+            <p>
+            <h3>Equipment:</h3>
+            <div class="indent">number of easy query: &nbsp;&nbsp;<span class="bold">16</span> <br>
+                number of medium query: &nbsp;&nbsp;<span class="bold">15</span> <br>
+                number of hard query: &nbsp;&nbsp;<span class="bold">15</span> <br>
+                number of word query: &nbsp;&nbsp;<span class="bold">390</span> including <span class="bold">85</span>
+                trap cards <br>
+                and <span class="bold">1</span> friend <br> <br></div>
+
+            <h3>Aim of the game: </h3>
+            <div class="indent"><span class="bold">Perform 3 SQL queries</span> of easy, medium and hard levels faster
+                than your opponent.
+                The SQL cards all have the query written on them, and you have to recreate it using the Black cards.
+                <span class="bold">For more information about queries check our website.</span>
+            </div> <br><br>
+
+            <h3>Preparation: </h3>
+            <div class="indent"><span class="bold">The player who hasn't recently used a SQL query starts and/or the
+                    youngest player.</span>
+                Each player draws <span class="bold">1</span> card from the easy pile, <span class="bold">1</span> card
+                from the medium pile and <span class="bold">1</span> card from the hard pile.
+                Each player draws <span class="bold">8</span> cards from the black pile and is obliged to have exactly
+                <span class="bold">8</span> cards at all times. If
+                not,
+                you have to pick the number of the missing cards.
+            </div><br><br>
+
+            <h3>Game sequence: </h3>
+            <div class="indent">In turn, each player places a card from <span class="bold">the purple pile on the
+                    table.</span></div> <br><br>
+
+
+            <h3>the cards: </h3>
+            <span class="green">Green :</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                class="bold">Easy</span> SQL quest
+            cards <br><br>
+            <span class="blue">Blue :</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold">Medium</span>
+            SQL
+            query cards <br><br>
+            <span class="purple">Purple :</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                class="bold">Difficult</span>
+            SQL query cards <br><br>
+            <span class="black">Black :</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                class="bold">Basic</span> cards
+            for creating SQL queries <br><br><br><br>
+
+            <span class="little">Trap cards:</span> <br><br>
+            <div class="indent3">
+                <span class="bold">"Syntax error"</span> card:
+            </div><br><br>
+            <div class="indent2">your opponent has to throw away his word cards that he starts to assemble</span></div>
+            <br><br>
+            <div class="indent3"><span class="bold">"Query Satellite"</span>" card:</div><br><br>
+
+            <div class="indent2"><span class="bold">Spies on an opponent's</span> DATABASE (can be <span
+                    class="bold">combined</span> with <span class="bold">SQL
+                    Injection</span> to steal a card
+                by spying).</div> <br><br>
+            <div class="indent3"><span class="bold">"SQL Injection"</span> Card:</div><br><br>
+
+            <div class="indent2"><span class="bold">Steals a card at random </span>from an opponent (can be <span
+                    class="bold">combined</span> with a <span class="bold">Query Satellite</span> to
+                choose the card).</div> <br><br>
+            <span class="little">Bonus cards:</span> <br><br>
+            <div class="indent3">
+                <span class="bold">"Master SQL"</span> Card:<br><br>
+            </div>
+            <div class="indent2"><span class="bold">Replaces a card with any SQL word of your choice.</span> The SQL
+                word must be explained
+                and justified before use.</div> <br><br>
+            <div class="indent3"><span class="bold">"SQL Reset"</span> card:</div>
+            <br><br>
+            <div class="indent2"><span class="bold">Exchanges all the cards</span> in your current hand with new cards.
+                <span class="bold">Draw the same number</span>
+                of cards as you exchanged.
+            </div> <br><br>
+            <div class="indent3"><span class="bold">"SQL Challenge"</span> card:</div>
+            <br><br>
+            <div class="indent2"><span class="bold">If your opponent has solved more cards than you</span> (e.g. if
+                you're at the easy end and
+                he's at the medium end), <span class="bold">add a card of lower difficulty</span> than the one he's
+                solved.</div> <br><br>
+            <div class="indent3"><span class="bold">SQL Shield"</span>" card:<br><br></div>
+
+            <div class="indent2"><span class="bold">Activate a shield</span> that protects against enemy attacks for 2
+                turns. During this
+                period, the negative effects of opposing cards have no effect on you.</div> <br><br>
+            <h3> End of game: </h3>
+            <div class="indent"><span class="bold">The first player to resolve 3 SQL query</span> cards <span
+                    class="bold">wins the game</span>.</div> <br><br>
+            </p>
+            <div class="contourBoutton">
+                <button class="boutonFermer">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="divrequest">
+        <div class="divRequestPopup">
+            <h1>Easy Request</h1>
+            <p>
+            <h4>Card number 1 :</h4> SELECT NAME FROM Characters, <br><br> This query allows you to select the
+            name of all characters in the Characters table. <br><br>
+
+
+            <h4>Card number 2 :</h4> SELECT Name FROM superheroes, <br><br> This query allows you to select the
+            name of all the superheroes on the superheroes table. <br><br>
+
+
+            <h4>Card number 3 :</h4> SELECT Name FROM Vilains, <br><br> This query allows you to select the name
+            of all the villains at the Villains table. <br><br>
+
+
+            <h4>Card number 4 :</h4> SELECT Name FROM Weapons, <br><br> This query allows you to select the name
+            of all weapons in the Weapons table. <br><br>
+
+
+            <h4>Card number 5 :</h4> SELECT Characters.id FROM Weapons, <br><br> This request allows you to
+            select the id of all the characters from the Characters table. <br><br>
+
+
+            <h4>Card number 6 :</h4> SELECT * FROM Characters, <br><br> This query allows you to select all
+            the information of all the characters in the Characters table. <br><br>
+
+            <h4>Card number 7 :</h4> SELECT * FROM Weapons, <br><br> This query allows you to select all
+            information for all weapons in the Weapons table. <br><br>
+
+            <h4>Card number 8 :</h4> SELECT * FROM superheroes, <br><br> This query allows you to select
+            all the information of all the superheroes from the superheroes table. <br><br>
+
+            <h4>Card number 9 :</h4> SELECT * FROM Vilains, <br><br> This query allows you to select all
+            the information of all the villains in the Villains table. <br><br>
+
+            <h4>Card number 10 :</h4> SELECT birth_date FROM Characters, <br><br> This request allows you to
+            select the date of birth of all the characters in the Characters table. <br><br>
+
+            <h4>Card number 11 :</h4> SELECT Created_date FROM Weapons, <br><br> This request allows you to
+            select the creation date of all weapons in the Weapons table. <br><br>
+
+            <h4>Card number 12 :</h4> SELECT id FROM Characters, <br><br> This query allows you to select the id
+            of all the characters in the Characters table. <br><br>
+
+            <h4>Card number 13 :</h4> SELECT id From Weapons, <br><br> This query allows you to select the id of
+            all weapons on the Weapons table. <br><br>
+
+            <h4>Card number 14 :</h4> SELECT id FROM superheroes, <br><br> This query allows you to select
+            the id of all superheroes from the superheroes table. <br><br>
+
+            <h4>Card number 15 :</h4> SELECT id FROM Vilains, <br><br> This query allows you to select the id of
+            all the villains at the Villains table. <br><br>
+
+            <h4>Card number 16 :</h4> SELECT Weapons.id FROM Characters, <br><br> This request allows you to
+            select the id of all weapons from the Weapons table. <br><br>
+
+            </p>
+            <div class="contourBoutton">
+                <button class="boutonFermerrequest">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="divAveragerequest">
+        <div class="divAvererageRequestPopup">
+            <h1>Medium Rquest</h1>
+            <p>
+            <h4>Card number 17 :</h4> SELECT name, birth_date FROM Characters, <br><br> This request allows you to
+            select the name and date of birth of all the characters in the Characters table. <br><br>
+            <h4>Card number 18 :</h4> SELECT name, Created_date FROM Weapons, <br><br> This request allows you to
+            select the name and creation date of all weapons in the Weapons table. <br><br>
+            <h4>Card number 19 :</h4> SELECT name, id FROM Characters, <br><br> This request allows you to
+            select the name and id of all the characters in the Characters table. <br><br>
+            <h4>Card number 20 :</h4> SELECT name, id From Vilains, <br><br> This query allows you to select
+            the name and id of all Villains in the Villains table. <br><br>
+            <h4>Card number 21 :</h4> SELECT name, id FROM superheroes, <br><br> This request allows you to
+            select the name and id of all the superheroes from the superheroes table. <br><br>
+            <h4>Card number 22 :</h4> SELECT name, id FROM Weapons, <br><br> This query allows you to select
+            the name and id of all weapons in the Weapons table. <br><br>
+            <h4>Card number 23 :</h4> SELECT Created_date, id FROM Weapons, <br><br> This request allows you to
+            select the creation date and id of all weapons from the Weapons table. <br><br>
+            <h4>Card number 24 :</h4> SELECT Created_date, id FROM Characters, <br><br> This request allows you to
+            select the date of birth and the id of all the characters in the Characters table. <br><br>
+            <h4>Card number 25 :</h4> DROP name, id FROM Characters, <br><br> This request allows you to delete the
+            name and id of all characters in the Characters table. <br><br>
+            <h4>Card number 26 :</h4> DROP Created_date, id FROM Weapons, <br><br> This request allows you to
+            remove the name and id of all weapons from the Weapons table. <br><br>
+            <h4>Card number 27 :</h4> DROP name, id FROM superheroes, <br><br> This request allows you to delete
+            the
+            name and id of all superheroes in the superheroes table. <br><br>
+            <h4>Card number 28 :</h4> DROP name, id FROM Vilains, <br><br> This request allows you to delete the
+            name
+            and the id of all Villains in the Villains table. <br><br>
+            <h4>Card number 29 :</h4> DROP name, id FROM Weapons, <br><br> This request allows you to delete the
+            name
+            and the id of all weapons in the Weapons table. <br><br>
+            <h4>Card number 30 :</h4> DROP Created_date, id FROM Characters, <br><br> This request allows you to
+            remove the date of birth and id of all characters from the Characters table. <br><br>
+            <h4>Card number 31 :</h4> SELECT city, name FROM Characters, <br><br> This request allows you to
+            select the city and name of all the characters in the Characters table. <br><br>
+            </p>
+            <div class="contourBoutton">
+                <button class="boutonFermerAveragerequest">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="divHardrequest">
+        <div class="divHardRequestPopup">
+            <h1>Hard Request</h1>
+            <p>
+            <h4>Card number 32 :</h4> UPDATE superheroes SET name = 'War Machine' WHERE name = 'Iron Patriot',
+            <br><br> This request allows you to change the name of Iron Patriot to War Machine in the table
+            superheroes. <br><br>
+            <h4>Card number 33 :</h4> UPDATE superheroes SET name = 'Captain Marvel' WHERE name = 'Miss Marvel',
+            <br><br> This request allows you to change the name of Miss Marvel to Captain Marvel in the table
+            superheroes. <br><br>
+            <h4>Card number 34 :</h4> UPDATE Weapons SET name = 'Strombreaker' WHERE name = 'Mjöllnir', <br><br>
+            This request allows you to change the name of Mjöllnir to Strombreaker in the Weapons table. <br><br>
+            <h4>Card number 35 :</h4> UPDATE Weapons SET name = 'Infinity Gauntlet' WHERE name = 'Infinity Stones',
+            <br><br> This request allows you to change the name of Infinity Stones to Infinity Gauntlet in the table
+            Weapons. <br><br>
+            <h4>Card number 36 :</h4> UPDATE Weapons SET name = 'Vibranium Shield' WHERE name = 'Adamantium Shield',
+            <br><br> This request allows you to change the name of Adamantium Shield to Vibranium Shield in the
+            table
+            Weapons. <br><br>
+            <h4>Card number 37 :</h4> UPDATE superheroes SET name = 'Bucky Barnes' WHERE name = 'Winter Soldier',
+            <br><br> This request allows you to change the name of Winter Soldier to Bucky Barnes in the table
+            superheroes. <br><br>
+            <h4>Card number 38 :</h4> DROP name, id, weapons.id FROM superheroes <br><br> This request allows you to
+            remove name, id and weapon id from superheroes table. <br><br>
+            <h4>Card number 39 :</h4> SELECT name, id, weapons.id FROM superheroes <br><br> This request allows you
+            to
+            select the name, id and weapon id from the superheroes table. <br><br>
+            <h4>Card number 40 :</h4> DROP name, id, weapons.id FROM Vilains <br><br> This request allows you to
+            remove name, id and weapon id from Villains table. <br><br>
+            <h4>Card number 41 :</h4> SELECT name FROM superheroes ORDER BY birth_date <br><br> This request allows
+            to select the name of the superheroes from the superheroes table in order of date of birth. <br><br>
+            <h4>Card number 42 :</h4> SELECT name FROM Vilains ORDER BY birth_date <br><br> This request allows you
+            to
+            select the name of the Villains from the Villains table in order of date of birth. <br><br>
+            <h4>Card number 43 :</h4> SELECT name FROM Weapons ORDER BY created_date <br><br> This request allows you
+            to
+            select the name of the weapons from the Weapons table in order of creation date. <br><br>
+            <h4>Card number 44 :</h4> DROP name, created_date, id FROM Weapons <br><br> This request allows you to
+            remove the name, creation date and id of weapons from the Weapons table. <br><br>
+            <h4>Card number 45 :</h4> SELECT name FROM Weapons ORDER BY name <br><br> This request allows you to
+            select the name of the weapons from the Weapons table in alphabetical order. <br><br>
+            <h4>Card number 46 :</h4> SELECT name FROM superheroes ORDER BY name <br><br> This request allows you to
+            select the name of the superheroes from the superheroes table in alphabetical order. <br><br>
+            <div class="contourBoutton">
+                <button class="boutonFermerHardrequest">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="code_challenge.js"></script>
+</body>
+
+</html>

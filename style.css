@@ -1,0 +1,358 @@
+body {
+    min-height: 100vh;
+    background: url(assets/img/perso_shibi.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+    /*background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);*/
+}
+
+.logo {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 450px;
+    max-width: 100%;
+    min-height: 40px;
+    margin: 50px auto;
+    padding-left: 5px;
+    color: #000;
+}
+
+.titre {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    padding: 20px 0;
+}
+
+.divRegle {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contourBoutton {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.boutonFermer {
+    background-color: #58cc02;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boutonFermer:active {
+    transform: translateY(5px);
+}
+
+.boutonFermerrequest {
+    background-color: #58cc02;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boutonFermerrequest:active {
+    transform: translateY(5px);
+}
+
+
+.boutonFermerAveragerequest {
+    background-color: #58cc02;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boutonFermerAveragerequest:active {
+    transform: translateY(5px);
+}
+
+.boutonFermerHardrequest {
+    background-color: #58cc02;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boutonFermerHardrequest:active {
+    transform: translateY(5px);
+}
+
+.padbut {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.but {
+
+    background-color: #58cc02;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+.but:active {
+    transform: translateY(5px);
+}
+
+.titreinPopup {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    padding: 20px 0;
+}
+
+.divReglePopup {
+    text-align: left;
+    margin-bottom: 300px;
+    width: clamp(800px, 120vw, 800px);
+    height: clamp(600px, 120vw, 600px);
+    background-color: #fff;
+    padding: clamp(1.5rem, 100vw, 3rem);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    border-radius: .5em;
+    transform: translateY(20%);
+    transition: 200ms ease-in-out opacity,
+        200ms ease-in-out transform;
+}
+
+.regle {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #58cc02;
+    display: block;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+
+}
+
+.espace {
+    margin-top: 20px;
+}
+
+.easyRequest {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #58cc02;
+    display: block;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+}
+
+.divrequest {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.divRequestPopup {
+    text-align: center;
+    margin-bottom: 300px;
+    width: clamp(800px, 120vw, 800px);
+    height: clamp(600px, 120vw, 600px);
+    background-color: #fff;
+    padding: clamp(1.5rem, 100vw, 3rem);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    border-radius: .5em;
+    transform: translateY(20%);
+    transition: 200ms ease-in-out opacity,
+        200ms ease-in-out transform;
+
+}
+
+.averageRequest {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #58cc02;
+    display: block;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+}
+
+.divAveragerequest {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.divAvererageRequestPopup {
+    text-align: center;
+    margin-bottom: 300px;
+    width: clamp(800px, 120vw, 800px);
+    height: clamp(600px, 120vw, 600px);
+    background-color: #fff;
+    padding: clamp(1.5rem, 100vw, 3rem);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    border-radius: .5em;
+    transform: translateY(20%);
+    transition: 200ms ease-in-out opacity,
+        200ms ease-in-out transform;
+
+}
+
+.hardRequest {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #58cc02;
+    display: block;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+}
+
+.divHardrequest {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.divHardRequestPopup {
+    text-align: center;
+    margin-bottom: 300px;
+    width: clamp(800px, 120vw, 800px);
+    height: clamp(600px, 120vw, 600px);
+    background-color: #fff;
+    padding: clamp(1.5rem, 100vw, 3rem);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    border-radius: .5em;
+    transform: translateY(20%);
+    transition: 200ms ease-in-out opacity,
+        200ms ease-in-out transform;
+
+}
+
+.green {
+    background-color: #58cc02;
+}
+
+.blue {
+    background-color: #00a2ff;
+}
+
+.purple {
+    background-color: #8e2de2;
+    color: #fff;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.indent {
+    margin-left: 40px;
+}
+
+.indent2 {
+    margin-left: 100px;
+}
+
+.indent3 {
+    margin-left: 40px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.little {
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+.bold {
+    font-weight: bold;
+}
