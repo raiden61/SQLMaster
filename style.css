@@ -357,21 +357,20 @@ body {
     font-weight: bold;
 }
 
-/* .video {
+.video {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
-
-.video {
-    width: 640px;
-    height: 360px;
 }
 
+/* .video {
+    width: 640px;
+    height: 360px;
+} */
+
 .yt-responsive {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 640px;
+    height: 360px;
 
 }
 
