@@ -357,11 +357,11 @@ body {
     font-weight: bold;
 }
 
-.video {
+/* .video {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .video {
     width: 640px;
